@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{91525DBF-6B1A-4EE6-9EAA-226219A7E648}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{44836F54-8D52-4246-BFD3-5856EB95FD0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{79213A42-5040-45E2-B781-CEEB9DED1EEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{37CDD53E-2E6B-41D8-AF4F-012E3C068264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APRESS.TimeTracker.BusinessLayer", "APRESS.TimeTracker.BusinessLayer\APRESS.TimeTracker.BusinessLayer.csproj", "{E0082DD8-91FC-41CC-9154-6E423ABCE57B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APRESS.TimeTracker.DataLayer", "APRESS.TimeTracker.DataLayer\APRESS.TimeTracker.DataLayer.csproj", "{850CEF5D-CC19-4C85-86DE-979C06C6DA9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APRESS.TimeTracker.ServiceLayer", "APRESS.TimeTracker.ServiceLayer\APRESS.TimeTracker.ServiceLayer.csproj", "{F903C0C6-0247-439C-98E2-6CD06C9D1E2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APRESS.TimeTracker.Test", "APRESS.TimeTracker.Test\APRESS.TimeTracker.Test.csproj", "{FD4BC3D6-AFAA-44F0-A3F1-797A6B958523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APRESS.TimeTracker", "APRESS.TimeTracker\APRESS.TimeTracker.csproj", "{55F5D74A-1B44-4729-84D7-954F00B68214}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0082DD8-91FC-41CC-9154-6E423ABCE57B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0082DD8-91FC-41CC-9154-6E423ABCE57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0082DD8-91FC-41CC-9154-6E423ABCE57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0082DD8-91FC-41CC-9154-6E423ABCE57B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850CEF5D-CC19-4C85-86DE-979C06C6DA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850CEF5D-CC19-4C85-86DE-979C06C6DA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850CEF5D-CC19-4C85-86DE-979C06C6DA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850CEF5D-CC19-4C85-86DE-979C06C6DA9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F903C0C6-0247-439C-98E2-6CD06C9D1E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F903C0C6-0247-439C-98E2-6CD06C9D1E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F903C0C6-0247-439C-98E2-6CD06C9D1E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F903C0C6-0247-439C-98E2-6CD06C9D1E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4BC3D6-AFAA-44F0-A3F1-797A6B958523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4BC3D6-AFAA-44F0-A3F1-797A6B958523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4BC3D6-AFAA-44F0-A3F1-797A6B958523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4BC3D6-AFAA-44F0-A3F1-797A6B958523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F5D74A-1B44-4729-84D7-954F00B68214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F5D74A-1B44-4729-84D7-954F00B68214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F5D74A-1B44-4729-84D7-954F00B68214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F5D74A-1B44-4729-84D7-954F00B68214}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0082DD8-91FC-41CC-9154-6E423ABCE57B} = {91525DBF-6B1A-4EE6-9EAA-226219A7E648}
+		{850CEF5D-CC19-4C85-86DE-979C06C6DA9B} = {91525DBF-6B1A-4EE6-9EAA-226219A7E648}
+		{F903C0C6-0247-439C-98E2-6CD06C9D1E2D} = {91525DBF-6B1A-4EE6-9EAA-226219A7E648}
+		{FD4BC3D6-AFAA-44F0-A3F1-797A6B958523} = {79213A42-5040-45E2-B781-CEEB9DED1EEC}
+		{55F5D74A-1B44-4729-84D7-954F00B68214} = {91525DBF-6B1A-4EE6-9EAA-226219A7E648}
+	EndGlobalSection
+EndGlobal
