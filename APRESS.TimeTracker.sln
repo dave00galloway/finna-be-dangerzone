@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{91525DBF-6B1A-4EE6-9EAA-226219A7E648}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{44836F54-8D52-4246-BFD3-5856EB95FD0B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{79213A42-5040-45E2-B781-CEEB9DED1EEC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{37CDD53E-2E6B-41D8-AF4F-012E3C068264}"
@@ -22,6 +20,40 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APRESS.TimeTracker", "APRESS.TimeTracker\APRESS.TimeTracker.csproj", "{55F5D74A-1B44-4729-84D7-954F00B68214}"
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "APRESS.TimeTracker.Architecture", "APRESS.TimeTracker.Architecture\APRESS.TimeTracker.Architecture.modelproj", "{7971244F-7577-4DD6-8F99-9CEBAA2856E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{D1ADA163-8FEF-4E25-955E-F8AD63E3BF73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdParty", "3rdParty", "{BF883BCD-C67C-4925-917B-DBFCC17F5A45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft", "Microsoft", "{147EA860-E5AB-4338-80EB-86369DDEE20D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{325DC704-B8D1-4345-A6CD-54C6579AB404}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototypes", "Prototypes", "{AEFEEA75-5E5B-49F7-82F0-95EC6480C536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTrackerPrototype", "Prototypes\TimeTrackerPrototype\TimeTrackerPrototype\TimeTrackerPrototype.csproj", "{4F0540BC-CCEB-43DB-A3A9-BD88CF52EF73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTrackerPrototypeScreens", "Prototypes\TimeTrackerPrototype\TimeTrackerPrototype\TimeTrackerPrototypeScreens\TimeTrackerPrototypeScreens.csproj", "{26FD563F-3AED-49BE-A461-C14F4FA6C4BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{6C640399-86BB-48DA-81E8-4C682C849F86}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Resources\Images\1432009096_internt_web_technology-01-128.png = Lib\Resources\Images\1432009096_internt_web_technology-01-128.png
+		Lib\Resources\Images\1432009098_internt_web_technology-08-128.png = Lib\Resources\Images\1432009098_internt_web_technology-08-128.png
+		Lib\Resources\Images\1432009100_internt_web_technology-05-128.png = Lib\Resources\Images\1432009100_internt_web_technology-05-128.png
+		Lib\Resources\Images\1432009103_internt_web_technology-16-128.png = Lib\Resources\Images\1432009103_internt_web_technology-16-128.png
+		Lib\Resources\Images\1432009105_internt_web_technology-06-128.png = Lib\Resources\Images\1432009105_internt_web_technology-06-128.png
+		Lib\Resources\Images\1432009107_internt_web_technology-12-128.png = Lib\Resources\Images\1432009107_internt_web_technology-12-128.png
+		Lib\Resources\Images\1432009109_internt_web_technology-13-128.png = Lib\Resources\Images\1432009109_internt_web_technology-13-128.png
+		Lib\Resources\Images\1432009110_internt_web_technology-04-128.png = Lib\Resources\Images\1432009110_internt_web_technology-04-128.png
+		Lib\Resources\Images\1432009112_internt_web_technology-10-128.png = Lib\Resources\Images\1432009112_internt_web_technology-10-128.png
+		Lib\Resources\Images\1432009114_internt_web_technology-15-128.png = Lib\Resources\Images\1432009114_internt_web_technology-15-128.png
+		Lib\Resources\Images\1432009117_internt_web_technology-02-128.png = Lib\Resources\Images\1432009117_internt_web_technology-02-128.png
+		Lib\Resources\Images\1432009119_internt_web_technology-11-128.png = Lib\Resources\Images\1432009119_internt_web_technology-11-128.png
+		Lib\Resources\Images\1432009120_internt_web_technology-09-128.png = Lib\Resources\Images\1432009120_internt_web_technology-09-128.png
+		Lib\Resources\Images\1432009122_internt_web_technology-14-128.png = Lib\Resources\Images\1432009122_internt_web_technology-14-128.png
+		Lib\Resources\Images\1432009123_internt_web_technology-07-128.png = Lib\Resources\Images\1432009123_internt_web_technology-07-128.png
+		Lib\Resources\Images\1432009127_internt_web_technology-03-128.png = Lib\Resources\Images\1432009127_internt_web_technology-03-128.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +85,14 @@ Global
 		{7971244F-7577-4DD6-8F99-9CEBAA2856E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7971244F-7577-4DD6-8F99-9CEBAA2856E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7971244F-7577-4DD6-8F99-9CEBAA2856E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F0540BC-CCEB-43DB-A3A9-BD88CF52EF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0540BC-CCEB-43DB-A3A9-BD88CF52EF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0540BC-CCEB-43DB-A3A9-BD88CF52EF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0540BC-CCEB-43DB-A3A9-BD88CF52EF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26FD563F-3AED-49BE-A461-C14F4FA6C4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26FD563F-3AED-49BE-A461-C14F4FA6C4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26FD563F-3AED-49BE-A461-C14F4FA6C4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26FD563F-3AED-49BE-A461-C14F4FA6C4BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,5 +104,11 @@ Global
 		{FD4BC3D6-AFAA-44F0-A3F1-797A6B958523} = {79213A42-5040-45E2-B781-CEEB9DED1EEC}
 		{55F5D74A-1B44-4729-84D7-954F00B68214} = {91525DBF-6B1A-4EE6-9EAA-226219A7E648}
 		{7971244F-7577-4DD6-8F99-9CEBAA2856E9} = {37CDD53E-2E6B-41D8-AF4F-012E3C068264}
+		{BF883BCD-C67C-4925-917B-DBFCC17F5A45} = {D1ADA163-8FEF-4E25-955E-F8AD63E3BF73}
+		{147EA860-E5AB-4338-80EB-86369DDEE20D} = {D1ADA163-8FEF-4E25-955E-F8AD63E3BF73}
+		{325DC704-B8D1-4345-A6CD-54C6579AB404} = {D1ADA163-8FEF-4E25-955E-F8AD63E3BF73}
+		{4F0540BC-CCEB-43DB-A3A9-BD88CF52EF73} = {AEFEEA75-5E5B-49F7-82F0-95EC6480C536}
+		{26FD563F-3AED-49BE-A461-C14F4FA6C4BB} = {AEFEEA75-5E5B-49F7-82F0-95EC6480C536}
+		{6C640399-86BB-48DA-81E8-4C682C849F86} = {325DC704-B8D1-4345-A6CD-54C6579AB404}
 	EndGlobalSection
 EndGlobal
