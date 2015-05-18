@@ -53,8 +53,25 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\APRESS.TimeTracker.BusinessLayer\APRESS.TimeTracker.BusinessLayer.csproj">
+      <Project>{e0082dd8-91fc-41cc-9154-6e423abce57b}</Project>
+      <Name>APRESS.TimeTracker.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APRESS.TimeTracker.DataLayer\APRESS.TimeTracker.DataLayer.csproj">
+      <Project>{850cef5d-cc19-4c85-86de-979c06c6da9b}</Project>
+      <Name>APRESS.TimeTracker.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APRESS.TimeTracker.ServiceLayer\APRESS.TimeTracker.ServiceLayer.csproj">
+      <Project>{f903c0c6-0247-439c-98e2-6cd06c9d1e2d}</Project>
+      <Name>APRESS.TimeTracker.ServiceLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\APRESS.TimeTracker\APRESS.TimeTracker.csproj">
+      <Project>{55f5d74a-1b44-4729-84d7-954f00b68214}</Project>
+      <Name>APRESS.TimeTracker</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
