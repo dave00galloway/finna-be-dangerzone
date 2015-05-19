@@ -27,12 +27,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdParty", "3rdParty", "{BF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft", "Microsoft", "{147EA860-E5AB-4338-80EB-86369DDEE20D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototypes", "Prototypes", "{AEFEEA75-5E5B-49F7-82F0-95EC6480C536}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTrackerPrototype", "Prototypes\TimeTrackerPrototype\TimeTrackerPrototype\TimeTrackerPrototype.csproj", "{4F0540BC-CCEB-43DB-A3A9-BD88CF52EF73}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTrackerPrototypeScreens", "Prototypes\TimeTrackerPrototype\TimeTrackerPrototype\TimeTrackerPrototypeScreens\TimeTrackerPrototypeScreens.csproj", "{26FD563F-3AED-49BE-A461-C14F4FA6C4BB}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,14 +57,6 @@ Global
 		{7971244F-7577-4DD6-8F99-9CEBAA2856E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7971244F-7577-4DD6-8F99-9CEBAA2856E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7971244F-7577-4DD6-8F99-9CEBAA2856E9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F0540BC-CCEB-43DB-A3A9-BD88CF52EF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F0540BC-CCEB-43DB-A3A9-BD88CF52EF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F0540BC-CCEB-43DB-A3A9-BD88CF52EF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F0540BC-CCEB-43DB-A3A9-BD88CF52EF73}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26FD563F-3AED-49BE-A461-C14F4FA6C4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26FD563F-3AED-49BE-A461-C14F4FA6C4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26FD563F-3AED-49BE-A461-C14F4FA6C4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26FD563F-3AED-49BE-A461-C14F4FA6C4BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,7 +70,5 @@ Global
 		{7971244F-7577-4DD6-8F99-9CEBAA2856E9} = {37CDD53E-2E6B-41D8-AF4F-012E3C068264}
 		{BF883BCD-C67C-4925-917B-DBFCC17F5A45} = {D1ADA163-8FEF-4E25-955E-F8AD63E3BF73}
 		{147EA860-E5AB-4338-80EB-86369DDEE20D} = {D1ADA163-8FEF-4E25-955E-F8AD63E3BF73}
-		{4F0540BC-CCEB-43DB-A3A9-BD88CF52EF73} = {AEFEEA75-5E5B-49F7-82F0-95EC6480C536}
-		{26FD563F-3AED-49BE-A461-C14F4FA6C4BB} = {AEFEEA75-5E5B-49F7-82F0-95EC6480C536}
 	EndGlobalSection
 EndGlobal
