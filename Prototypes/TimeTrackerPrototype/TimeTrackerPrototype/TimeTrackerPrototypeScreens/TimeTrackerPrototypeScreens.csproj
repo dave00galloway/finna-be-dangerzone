@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ExpressionBlendVersion>12.0.51020.0</ExpressionBlendVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{26fd563f-3aed-49be-a461-c14f4fa6c4bb}</ProjectGuid>
+    <ProjectGuid>{26FD563F-3AED-49BE-A461-C14F4FA6C4BB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TimeTrackerPrototypeScreens</RootNamespace>
@@ -61,9 +61,23 @@
     <Reference Include="Microsoft.Expression.Prototyping.SketchControls" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomersList.xaml.cs">
+      <DependentUpon>CustomersList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeesList.xaml.cs">
+      <DependentUpon>EmployeesList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SampleData\SampleDataSource\SampleDataSource.xaml.cs">
       <DependentUpon>SampleDataSource.xaml</DependentUpon>
     </Compile>
+    <Page Include="CustomersList.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="EmployeesList.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Main.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

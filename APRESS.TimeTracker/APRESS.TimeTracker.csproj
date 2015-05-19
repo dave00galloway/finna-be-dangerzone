@@ -98,6 +98,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+    <None Include="Resources\Images\Thumbs.db" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\APRESS.TimeTracker.BusinessLayer\APRESS.TimeTracker.BusinessLayer.csproj">
@@ -112,6 +113,24 @@
       <Project>{f903c0c6-0247-439c-98e2-6cd06c9d1e2d}</Project>
       <Name>APRESS.TimeTracker.ServiceLayer</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\1432009096_internt_web_technology-01-128.png" />
+    <Resource Include="Resources\Images\1432009098_internt_web_technology-08-128.png" />
+    <Resource Include="Resources\Images\1432009100_internt_web_technology-05-128.png" />
+    <Resource Include="Resources\Images\1432009103_internt_web_technology-16-128.png" />
+    <Resource Include="Resources\Images\1432009105_internt_web_technology-06-128.png" />
+    <Resource Include="Resources\Images\1432009107_internt_web_technology-12-128.png" />
+    <Resource Include="Resources\Images\1432009109_internt_web_technology-13-128.png" />
+    <Resource Include="Resources\Images\1432009110_internt_web_technology-04-128.png" />
+    <Resource Include="Resources\Images\1432009112_internt_web_technology-10-128.png" />
+    <Resource Include="Resources\Images\1432009114_internt_web_technology-15-128.png" />
+    <Resource Include="Resources\Images\1432009117_internt_web_technology-02-128.png" />
+    <Resource Include="Resources\Images\1432009119_internt_web_technology-11-128.png" />
+    <Resource Include="Resources\Images\1432009120_internt_web_technology-09-128.png" />
+    <Resource Include="Resources\Images\1432009122_internt_web_technology-14-128.png" />
+    <Resource Include="Resources\Images\1432009123_internt_web_technology-07-128.png" />
+    <Resource Include="Resources\Images\1432009127_internt_web_technology-03-128.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />

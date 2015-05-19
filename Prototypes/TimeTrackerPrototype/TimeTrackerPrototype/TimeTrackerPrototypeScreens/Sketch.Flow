@@ -15,8 +15,61 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>TimeTrackerPrototypeScreens.EployeesList</ClassName>
+      <DisplayName>EployeesList</DisplayName>
+      <FileName>EmployeesList.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>259</X>
+        <Y>137</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>TimeTrackerPrototypeScreens.Copy_of_EployeesList</ClassName>
+      <DisplayName>CustomersList</DisplayName>
+      <FileName>CustomersList.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>445</X>
+        <Y>145</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
-  <Connections />
+  <Connections>
+    <Connection>
+      <Source>TimeTrackerPrototypeScreens.Main</Source>
+      <Target>TimeTrackerPrototypeScreens.EployeesList</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>TimeTrackerPrototypeScreens.EployeesList</Source>
+      <Target>TimeTrackerPrototypeScreens.Main</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>TimeTrackerPrototypeScreens.Copy_of_EployeesList</Source>
+      <Target>TimeTrackerPrototypeScreens.Main</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>TimeTrackerPrototypeScreens.Main</Source>
+      <Target>TimeTrackerPrototypeScreens.Copy_of_EployeesList</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+  </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
   <RuntimeOptions>
@@ -64,7 +117,7 @@
     <Zoom>1</Zoom>
     <Center>
       <X>393</X>
-      <Y>78</Y>
+      <Y>102.64739884393059</Y>
     </Center>
   </ViewState>
 </Data>
