@@ -16,8 +16,20 @@
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
-		<Button Content="New" HorizontalAlignment="Left" Margin="122,88.855,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="75"/>
-		<Button Content="Edit" HorizontalAlignment="Left" Margin="211.5,88.855,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="75"/>
+		<Button Content="New" HorizontalAlignment="Left" Margin="122,88.855,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="75">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="TimeTrackerPrototypeScreens.EmployeeDetails"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button Content="Edit" HorizontalAlignment="Left" Margin="211.5,88.855,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="75">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="TimeTrackerPrototypeScreens.EmployeeDetails"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
 		<Button Content="Save" HorizontalAlignment="Left" Margin="380,88.855,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="75"/>
 		<Button Content="Delete" HorizontalAlignment="Left" Margin="299,88.855,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="75"/>
 		<TextBox HorizontalAlignment="Left" Height="23" Margin="490,89.318,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="120"/>

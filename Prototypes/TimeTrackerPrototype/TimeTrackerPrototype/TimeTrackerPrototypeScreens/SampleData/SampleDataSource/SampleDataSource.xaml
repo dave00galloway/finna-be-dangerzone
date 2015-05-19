@@ -40,4 +40,7 @@
 		<SampleData:CustomerListItem Name="Argentiero, Luca" Email="user-7@fabrikam.com"/>
 		<SampleData:CustomerListItem Name="Perry, Brian" Email="user-8@fabrikam.com"/>
 	</SampleData:SampleDataSource.CustomerList>
+	<SampleData:SampleDataSource.Employee>
+		<SampleData:Employee Name="Aaberg, Jesper" Company="A. Datum Corporation" Email="someone@example.com" Address="4567 Main St., Buffalo, NY 98052" Phone="(111) 555-0100" Web="http://www.adatum.com/"/>
+	</SampleData:SampleDataSource.Employee>
 </SampleData:SampleDataSource>
