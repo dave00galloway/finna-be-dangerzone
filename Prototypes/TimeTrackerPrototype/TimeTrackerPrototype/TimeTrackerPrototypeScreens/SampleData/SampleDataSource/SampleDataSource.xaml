@@ -43,4 +43,7 @@
 	<SampleData:SampleDataSource.Employee>
 		<SampleData:Employee Name="Aaberg, Jesper" Company="A. Datum Corporation" Email="someone@example.com" Address="4567 Main St., Buffalo, NY 98052" Phone="(111) 555-0100" Web="http://www.adatum.com/"/>
 	</SampleData:SampleDataSource.Employee>
+	<SampleData:SampleDataSource.Customer>
+		<SampleData:Customer Name="Aaberg, Jesper" Company="A. Datum Corporation" Email="someone@example.com" Address="4567 Main St., Buffalo, NY 98052" Web="http://www.adatum.com/" Phone="(111) 555-0100"/>
+	</SampleData:SampleDataSource.Customer>
 </SampleData:SampleDataSource>

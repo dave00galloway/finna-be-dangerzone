@@ -51,6 +51,18 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>TimeTrackerPrototypeScreens.CustomerDetails</ClassName>
+      <DisplayName>CustomerDetails</DisplayName>
+      <FileName>CustomerDetails.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>457</X>
+        <Y>214</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -90,14 +102,21 @@
     </Connection>
     <Connection>
       <Source>TimeTrackerPrototypeScreens.EmployeeDetails</Source>
-      <Target>TimeTrackerPrototypeScreens.Main</Target>
+      <Target>TimeTrackerPrototypeScreens.EmployeesList</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
     <Connection>
-      <Source>TimeTrackerPrototypeScreens.EmployeeDetails</Source>
-      <Target>TimeTrackerPrototypeScreens.EmployeesList</Target>
+      <Source>TimeTrackerPrototypeScreens.CustomerList</Source>
+      <Target>TimeTrackerPrototypeScreens.CustomerDetails</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>TimeTrackerPrototypeScreens.CustomerDetails</Source>
+      <Target>TimeTrackerPrototypeScreens.CustomerList</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
@@ -150,7 +169,7 @@
     <Zoom>1</Zoom>
     <Center>
       <X>393</X>
-      <Y>102.64739884393059</Y>
+      <Y>178.51445086705209</Y>
     </Center>
   </ViewState>
 </Data>

@@ -1,0 +1,35 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:pc="http://schemas.microsoft.com/prototyping/2010/controls" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" x:Name="TimeTrackerPrototypeScreens_CustomerDetails_Name"
+	mc:Ignorable="d"
+	x:Class="TimeTrackerPrototypeScreens.CustomerDetails"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White" DataContext="{Binding Source={StaticResource SampleDataSource}}">
+		<TextBlock HorizontalAlignment="Left" Margin="191,19,0,0" Style="{DynamicResource TextBlock-Sketch}" VerticalAlignment="Top" Width="150.033"><Run Text="ACME - TimeTracker"/><Run Text=" V"/><Run Text=" 1.0"/></TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="191,57.806,0,0" Style="{DynamicResource TextBlock-Sketch}" VerticalAlignment="Top" Width="150.033"><Run Text="Customer "/><Run Text="Details"/></TextBlock>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="59.701" Margin="10,88.855,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="620"/>
+		<Button Content="&lt;&lt; Back" HorizontalAlignment="Left" Margin="29.811,106.765,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="75">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="TimeTrackerPrototypeScreens.CustomerList"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="280.597" Margin="10,168.656,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="437.313"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="228.358,243.94,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="{Binding Customer.Company}" VerticalAlignment="Top" Width="120"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="228.358,271.94,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="{Binding Customer.Email}" VerticalAlignment="Top" Width="120"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="228.358,299.94,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="{Binding Customer.Address}" VerticalAlignment="Top" Width="120"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="228.358,327.94,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="{Binding Customer.Phone}" VerticalAlignment="Top" Width="120"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="228.358,355.94,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="{Binding Customer.Web}" VerticalAlignment="Top" Width="120"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="228.358,215.94,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="{Binding Customer.Name}" VerticalAlignment="Top" Width="120"/>
+		<TextBlock HorizontalAlignment="Left" Margin="29.811,215.94,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Name &gt;" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="29.811,243.249,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Company &gt;" VerticalAlignment="Top" RenderTransformOrigin="0.247,2.01"/>
+		<TextBlock HorizontalAlignment="Left" Margin="29.811,271.94,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Email &gt;" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="29.811,299.94,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Address &gt;" VerticalAlignment="Top" RenderTransformOrigin="0.273,4.201"/>
+		<TextBlock HorizontalAlignment="Left" Margin="29.811,327.94,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Phone &gt;" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="29.811,355.94,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Web &gt;" VerticalAlignment="Top"/>
+	</Grid>
+</UserControl>

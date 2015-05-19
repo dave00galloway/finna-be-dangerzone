@@ -84,6 +84,25 @@ namespace Expression.Blend.SampleData.SampleDataSource
 				}
 			}
 		}
+
+		private Customer _Customer = new Customer();
+
+		public Customer Customer
+		{
+			get
+			{
+				return this._Customer;
+			}
+
+			set
+			{
+				if (this._Customer != value)
+				{
+					this._Customer = value;
+					this.OnPropertyChanged("Customer");
+				}
+			}
+		}
 	}
 
 	public class Top10List : System.Collections.ObjectModel.ObservableCollection<Top10ListItem>
@@ -373,6 +392,133 @@ namespace Expression.Blend.SampleData.SampleDataSource
 				{
 					this._Web = value;
 					this.OnPropertyChanged("Web");
+				}
+			}
+		}
+	}
+
+	public class Customer : INotifyPropertyChanged
+	{
+		public event PropertyChangedEventHandler PropertyChanged;
+
+		protected virtual void OnPropertyChanged(string propertyName)
+		{
+			if (this.PropertyChanged != null)
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+
+		private string _Name = string.Empty;
+
+		public string Name
+		{
+			get
+			{
+				return this._Name;
+			}
+
+			set
+			{
+				if (this._Name != value)
+				{
+					this._Name = value;
+					this.OnPropertyChanged("Name");
+				}
+			}
+		}
+
+		private string _Company = string.Empty;
+
+		public string Company
+		{
+			get
+			{
+				return this._Company;
+			}
+
+			set
+			{
+				if (this._Company != value)
+				{
+					this._Company = value;
+					this.OnPropertyChanged("Company");
+				}
+			}
+		}
+
+		private string _Email = string.Empty;
+
+		public string Email
+		{
+			get
+			{
+				return this._Email;
+			}
+
+			set
+			{
+				if (this._Email != value)
+				{
+					this._Email = value;
+					this.OnPropertyChanged("Email");
+				}
+			}
+		}
+
+		private string _Address = string.Empty;
+
+		public string Address
+		{
+			get
+			{
+				return this._Address;
+			}
+
+			set
+			{
+				if (this._Address != value)
+				{
+					this._Address = value;
+					this.OnPropertyChanged("Address");
+				}
+			}
+		}
+
+		private string _Web = string.Empty;
+
+		public string Web
+		{
+			get
+			{
+				return this._Web;
+			}
+
+			set
+			{
+				if (this._Web != value)
+				{
+					this._Web = value;
+					this.OnPropertyChanged("Web");
+				}
+			}
+		}
+
+		private string _Phone = string.Empty;
+
+		public string Phone
+		{
+			get
+			{
+				return this._Phone;
+			}
+
+			set
+			{
+				if (this._Phone != value)
+				{
+					this._Phone = value;
+					this.OnPropertyChanged("Phone");
 				}
 			}
 		}
