@@ -27,4 +27,22 @@
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\APRESS.TimeTracker.BusinessLayer\APRESS.TimeTracker.BusinessLayer.csproj">
+      <Name>APRESS.TimeTracker.BusinessLayer</Name>
+      <Project>{e0082dd8-91fc-41cc-9154-6e423abce57b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\APRESS.TimeTracker.DataLayer\APRESS.TimeTracker.DataLayer.csproj">
+      <Name>APRESS.TimeTracker.DataLayer</Name>
+      <Project>{850cef5d-cc19-4c85-86de-979c06c6da9b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\APRESS.TimeTracker.ServiceLayer\APRESS.TimeTracker.ServiceLayer.csproj">
+      <Name>APRESS.TimeTracker.ServiceLayer</Name>
+      <Project>{f903c0c6-0247-439c-98e2-6cd06c9d1e2d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\APRESS.TimeTracker\APRESS.TimeTracker.csproj">
+      <Name>APRESS.TimeTracker</Name>
+      <Project>{55f5d74a-1b44-4729-84d7-954f00b68214}</Project>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
