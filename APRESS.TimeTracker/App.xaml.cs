@@ -32,7 +32,6 @@ namespace APRESS.TimeTracker
             //var mainView = new MainWindow();
             //mainView.Show();
             var mainWindow = _navigationService.ShowMainWindow();
-
         }
 
         protected override void OnSessionEnding(SessionEndingCancelEventArgs e)

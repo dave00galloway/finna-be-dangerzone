@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ImageSource x:Key="AddBig">
+        /Resources/Images/1432009096_internt_web_technology-01-128.png
+    </ImageSource>
+    <ImageSource x:Key="SearchBig">
+        /Resources/Images/1432009100_internt_web_technology-05-128.png
+    </ImageSource>
+    
+</ResourceDictionary>
