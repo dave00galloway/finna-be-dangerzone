@@ -1,8 +1,11 @@
-﻿namespace APRESS.TimeTracker.Services
+﻿using System.Windows;
+
+namespace APRESS.TimeTracker.Services
 {
     public interface INavigationService
     {
         bool ConfirmClose();
-        object ShowMainWindow();
+        Window ShowMainWindow();
+        Window ShowLoginWindow();
     }
 }

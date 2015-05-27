@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using APRESS.TimeTracker.Services;
+using APRESS.TimeTracker.Views;
 using Microsoft.Practices.Unity;
 
 namespace APRESS.TimeTracker
@@ -22,6 +23,7 @@ namespace APRESS.TimeTracker
             _container = new UnityContainer();
             _container.RegisterType<IDialogService, DialogService>();
             _container.RegisterType<INavigationService, NavigationService>();
+            _container.RegisterType<LoginView>();
             _container.RegisterType<MainWindow>();
             _navigationService = _container.Resolve<INavigationService>();
         }
@@ -31,7 +33,7 @@ namespace APRESS.TimeTracker
             base.OnStartup(e);
             //var mainView = new MainWindow();
             //mainView.Show();
-            var mainWindow = _navigationService.ShowMainWindow();
+            _navigationService.ShowLoginWindow();
         }
 
         protected override void OnSessionEnding(SessionEndingCancelEventArgs e)

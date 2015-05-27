@@ -22,5 +22,7 @@ namespace APRESS.TimeTracker.Views
         {
             InitializeComponent();
         }
+
+
     }
 }

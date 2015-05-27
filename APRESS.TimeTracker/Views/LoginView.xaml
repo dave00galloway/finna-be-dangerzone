@@ -3,6 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="LoginView" Height="300" Width="300" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Topmost="True">
     <Grid>
-        
+        <Label x:Name="WindowTitle" Content="TimeTracker Login" Margin="94,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBox x:Name="UserName" HorizontalAlignment="Left" Height="23" Margin="94,83,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="94,128,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Login" Content="Login" HorizontalAlignment="Left" Margin="94,217,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="192,217,0,0" VerticalAlignment="Top" Width="75"/>
+        <!--<Label x:Name="AuthenticationErrors" Style="{StaticResource ErrorLabel}" Content="" HorizontalAlignment="Left" Margin="94,193,0,0" VerticalAlignment="Top"/>-->
+
     </Grid>
 </Window>
