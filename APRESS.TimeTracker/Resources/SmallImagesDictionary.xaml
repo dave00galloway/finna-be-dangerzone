@@ -1,4 +1,5 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    
+    <ImageSource x:Key="SaveSmall">/Resources/ImagesSmall/1432009123_internt_web_technology-07-128.png </ImageSource>
+    <ImageSource x:Key="CloseSmall">/Resources/ImagesSmall/1432009109_internt_web_technology-13-128.png</ImageSource>
 </ResourceDictionary>
