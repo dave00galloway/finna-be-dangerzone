@@ -8,8 +8,13 @@
             Time Tracker Employee Details
         </TextBlock>
         <StackPanel DockPanel.Dock="Bottom" MaxHeight="30" Orientation="Horizontal" HorizontalAlignment="Right">
-            <resources:ImageButton Padding="3" Text="Save" Image="{DynamicResource SaveSmall}"></resources:ImageButton>
-            <resources:ImageButton Padding="3" Text="Close" Image="{DynamicResource CloseSmall}"></resources:ImageButton>
+            <resources:ImageButton Padding="3" Text="Save" Image="{DynamicResource SaveSmall}" />
+            <resources:ImageButton Padding="3" Text="Close" Image="{DynamicResource CloseSmall}" />
         </StackPanel>
+        <TabControl DockPanel.Dock="Bottom" Margin="5">
+            <TabItem Header="Employee" />
+            <TabItem Header="Contacts" />
+            <TabItem Header="Appointments" />
+        </TabControl>
     </DockPanel>
 </Window>
