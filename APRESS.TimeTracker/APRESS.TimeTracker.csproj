@@ -87,6 +87,9 @@
     <Compile Include="ViewModels\BaseListViewModel.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\ObservableObject.cs" />
+    <Compile Include="Views\EmployeeDetailsUserControl.xaml.cs">
+      <DependentUpon>EmployeeDetailsUserControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\EmployeeDetailsView.xaml.cs">
       <DependentUpon>EmployeeDetailsView.xaml</DependentUpon>
     </Compile>
@@ -122,6 +125,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Resources\SmallImagesDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EmployeeDetailsUserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
